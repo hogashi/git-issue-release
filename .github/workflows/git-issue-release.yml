@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: git-issue-release
-        uses: hogashi/git-issue-release@v1
+        uses: hogashi/git-issue-release@v1.0.0-a
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
